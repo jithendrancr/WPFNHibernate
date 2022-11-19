@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="WpfNHibernate"
+                   namespace="WpfNHibernate">
+
+  <!-- more mapping info here -->
+  <class name="WpfNHibernate.EmployeeDTO">
+    <id name="Employee_ID">
+      <generator class="identity" />
+    </id>
+    <property name="Employee_FirstName" />
+    <property name="Employee_LastName" />
+    <property name="Employee_DOB" />
+    <property name="Employee_Salary" />
+    <property name="Employee_IsPermanent" />
+    <property name="Employee_Designation" />
+  </class>
+</hibernate-mapping>
